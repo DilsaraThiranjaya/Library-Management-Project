@@ -1,0 +1,30 @@
+[submodule "Library-Management-Project-Configurations"]
+	path = Library-Management-Project-Configurations
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Configurations.git
+[submodule "Library-Management-Project-Platform"]
+	path = Library-Management-Project-Platform
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Platform.git
+[submodule "Library-Management-Project-Platform-Api-Gateway"]
+	path = Library-Management-Project-Platform-Api-Gateway
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Platform-Api-Gateway.git
+[submodule "Library-Management-Project-Platform-Config-Server"]
+	path = Library-Management-Project-Platform-Config-Server
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Platform-Config-Server.git
+[submodule "Library-Management-Project-Platform-Service-Registry"]
+	path = Library-Management-Project-Platform-Service-Registry
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Platform-Service-Registry.git
+[submodule "Library-Management-Project-Service-Book"]
+	path = Library-Management-Project-Service-Book
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Service-Book.git
+[submodule "Library-Management-Project-Service-Member"]
+	path = Library-Management-Project-Service-Member
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Service-Member.git
+[submodule "Library-Management-Project-Service-File"]
+	path = Library-Management-Project-Service-File
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Service-File.git
+[submodule "Library-Management-Project-Services"]
+	path = Library-Management-Project-Services
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Services.git
+[submodule "Library-Management-Project-Webapp"]
+	path = Library-Management-Project-Webapp
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Webapp.git
