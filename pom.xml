@@ -4,12 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>lk.ijse.eca</groupId>
-    <artifactId>Library-Management-Project</artifactId>
+    <artifactId>Project</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
 
     <modules>
-        <module>platforms</module>
-        <module>services</module>
+        <module>platforms/api-gateway</module>
+        <module>platforms/config-server</module>
+        <module>platforms/service-registry</module>
+        <module>services/book-service</module>
+        <module>services/member-service</module>
+        <module>services/file-service</module>
     </modules>
 </project>
