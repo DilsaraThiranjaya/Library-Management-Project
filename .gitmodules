@@ -1,12 +1,9 @@
-[submodule "Library-Management-Project-Configurations"]
-	path = Library-Management-Project-Configurations
-	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Configurations.git
 [submodule "Library-Management-Project-Platform"]
-	path = Library-Management-Project-Platform
+	path = platforms
 	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Platform.git
 [submodule "Library-Management-Project-Services"]
-	path = Library-Management-Project-Services
+	path = services
 	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Services.git
 [submodule "Library-Management-Project-Webapp"]
-	path = Library-Management-Project-Webapp
+	path = webapp
 	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Webapp.git
