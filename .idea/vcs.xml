@@ -2,15 +2,14 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Library-Management-Project-Configurations" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Library-Management-Project-Platform" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Library-Management-Project-Platform/Library-Management-Project-Platform-Api-Gateway" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Library-Management-Project-Platform/Library-Management-Project-Platform-Config-Server" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Library-Management-Project-Platform/Library-Management-Project-Platform-Service-Registry" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Library-Management-Project-Services" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Library-Management-Project-Services/Library-Management-Project-Service-Book" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Library-Management-Project-Services/Library-Management-Project-Service-File" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Library-Management-Project-Services/Library-Management-Project-Service-Member" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Library-Management-Project-Webapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/platforms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/platforms/api-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/platforms/config-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/platforms/service-registry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/services" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/services/book-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/services/file-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/services/member-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/webapp" vcs="Git" />
   </component>
 </project>
