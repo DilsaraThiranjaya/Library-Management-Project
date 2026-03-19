@@ -9,10 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Api-Gateway" />
         <module name="Config-Server" />
-        <module name="file-service" />
         <module name="Service-Registry" />
       </profile>
-      <profile name="Annotation profile for member-service" enabled="true">
+      <profile name="Annotation profile for Project" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -23,6 +22,15 @@
         </processorPath>
         <module name="book-service" />
         <module name="member-service" />
+      </profile>
+      <profile name="Annotation profile for file-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+        </processorPath>
+        <module name="file-service" />
       </profile>
     </annotationProcessing>
   </component>
