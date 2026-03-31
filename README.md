@@ -1,17 +1,18 @@
 # Library Management System - Microservices Architecture
 
 ### Student Information
+
 - **Student Name**: Dilsara Thiranjaya
 - **Student Number**: 2301692050
 - **Slack Handle**: Dilsara Thiranjaya
 - **GCP Project ID**: dilsara
 
 ### Public Access Points
-- **Eureka Dashboard**: [http://35.186.210.212:8761](http://35.186.210.212:8761)
-- **Frontend Application**: [http://35.186.210.212](http://35.186.210.212)
+
+- **Eureka Dashboard**: [http://34.96.243.98:8761](http://34.96.243.98:8761)
+- **Frontend Application**: [http://34.96.172.80](http://34.96.172.80)
 
 ---
-
 
 Welcome to the Library Management System! This project is a comprehensive, scalable application built using a microservices architecture. It leverages a nested polyrepo structure to organize the various components, services, and configuration files efficiently.
 
@@ -22,6 +23,7 @@ The system is divided into several independent domains, grouped logically into n
 ### Main Repository Structure
 
 This parent repository ties together four main domains of the application:
+
 1.  **Configurations**: Centralized configuration properties and environments for the microservices.
 2.  **Platform**: The foundational infrastructure components required to run the microservices ecosystem.
 3.  **Services**: The core business logic microservices.
@@ -37,11 +39,11 @@ graph TD
     Main --> Platform[Platform]
     Main --> Services[Services]
     Main --> Webapp[Webapp]
-    
+
     Platform --> API[Api-Gateway]
     Platform --> ConfigServer[Config-Server]
     Platform --> Registry[Service-Registry]
-    
+
     Services --> Book[Service-Book]
     Services --> Member[Service-Member]
     Services --> File[Service-File]
@@ -50,18 +52,21 @@ graph TD
 ### Component Details
 
 #### Platform Components
--   **API Gateway**: The single entry point for all client requests, routing them to the appropriate backend microservices and handling cross-cutting concerns.
--   **Config Server**: Provides centralized configuration management across all environments for the distributed system.
--   **Service Registry**: A discovery server that allows microservices to register themselves and discover other services dynamically at runtime.
+
+- **API Gateway**: The single entry point for all client requests, routing them to the appropriate backend microservices and handling cross-cutting concerns.
+- **Config Server**: Provides centralized configuration management across all environments for the distributed system.
+- **Service Registry**: A discovery server that allows microservices to register themselves and discover other services dynamically at runtime.
 
 #### Core Services
--   **Book Service**: Manages the catalog of books, including adding, updating, tracking inventory, and retrieving book information.
--   **Member Service**: Handles user management, library memberships, tracking, and basic authentication/authorization checks.
--   **File Service**: Manages unstructured data, file uploads, and attachment resources associated with books or members (e.g. cover images, profile pictures).
+
+- **Book Service**: Manages the catalog of books, including adding, updating, tracking inventory, and retrieving book information.
+- **Member Service**: Handles user management, library memberships, tracking, and basic authentication/authorization checks.
+- **File Service**: Manages unstructured data, file uploads, and attachment resources associated with books or members (e.g. cover images, profile pictures).
 
 ## Getting Started
 
 ### Prerequisites
+
 - Git
 
 ### Cloning the Repository
@@ -80,9 +85,10 @@ git submodule update --init --recursive
 
 ## Development and Contribution
 
-Each component operates in its own independent repository and can be developed, built, and tested in isolation. 
+Each component operates in its own independent repository and can be developed, built, and tested in isolation.
 
 To make changes to a specific service or platform component:
+
 1. Navigate to its respective directory.
 2. Ensure you are on the `main` branch or a feature branch within that component.
 3. Make your changes and commit them directly to that component's repository.
