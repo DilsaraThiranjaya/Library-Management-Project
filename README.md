@@ -1,5 +1,18 @@
 # Library Management System - Microservices Architecture
 
+### Student Information
+- **Student Name**: Dilsara Thiranjaya
+- **Student Number**: 2301692050
+- **Slack Handle**: Dilsara Thiranjaya
+- **GCP Project ID**: dilsara
+
+### Public Access Points
+- **Eureka Dashboard**: [http://35.186.210.212:8761](http://35.186.210.212:8761)
+- **Frontend Application**: [http://35.186.210.212](http://35.186.210.212)
+
+---
+
+
 Welcome to the Library Management System! This project is a comprehensive, scalable application built using a microservices architecture. It leverages a nested polyrepo structure to organize the various components, services, and configuration files efficiently.
 
 ## Project Architecture
